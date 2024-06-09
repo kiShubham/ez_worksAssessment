@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const Backend_endpoint = "https://34.225.132.160:8002/api";
+export const Backend_endpoint = "http://34.225.132.160:8002/api";
 
 export const postEmailreq = async (data) => {
   try {

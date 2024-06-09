@@ -15,7 +15,7 @@ const Form = () => {
   const [email, setEmail] = useState("");
   const [success, setSuccess] = useState(""); // true-->success, false==>error, ""-->empty
   const [errortext, setErrorTxt] = useState("");
-  const [mobileScreen, setMobileScreen] = useState(true);
+  const [mobileScreen, setMobileScreen] = useState(false);
 
   const reset = (fn, bool = true, delay = 3000, text = "") => {
     setTimeout(() => {
