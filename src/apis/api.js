@@ -1,10 +1,11 @@
 import axios from "axios";
 
+const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"; // using proxy as api link given is http not https ;
 export const Backend_endpoint = "http://34.225.132.160:8002/api";
 
 export const postEmailreq = async (data) => {
   try {
-    const res = await axios.post(Backend_endpoint, data);
+    const res = await axios.post(`${CORS_PROXY}${Backend_endpoint}`, data);
     // console.log(res);
     return res;
   } catch (error) {
@@ -12,5 +13,6 @@ export const postEmailreq = async (data) => {
   }
 };
 
+console.log(`${CORS_PROXY}${Backend_endpoint}`);
 // response codes
 // 200 successfull or 422 not valid
