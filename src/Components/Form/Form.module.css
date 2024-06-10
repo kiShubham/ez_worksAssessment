@@ -1,11 +1,12 @@
 .home {
-  width: 1920px;
+  width: max-content;
+  height: max-content;
   display: flex;
   gap: 67px;
   margin-top: 40px;
   border-radius: 18px;
   padding: 40px;
-  border: 2px solid yellow;
+  border: 2px solid #a3a3a3;
 }
 .formSection {
   width: 760px;
@@ -111,9 +112,11 @@
     align-items: center;
     gap: 40px;
     padding: 20px;
+    border: none;
   }
   .formSection {
     width: 350px;
+    height: 352px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,7 +190,7 @@
   }
 }
 
-@media (min-width: 500px) and (max-width: 1366px) {
+@media (min-width: 501px) and (max-width: 1366px) {
   .home {
     width: max-content;
     height: max-content;
@@ -196,7 +199,7 @@
     margin-top: 40px;
     border-radius: 18px;
     padding: 30px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
   .formSection {
     width: max-content;
