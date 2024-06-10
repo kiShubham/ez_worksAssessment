@@ -3,6 +3,7 @@
 .card {
   width: 311px;
   height: 254px;
+
   background: #112949;
   border-radius: 10px;
   padding: 30px;
@@ -47,4 +48,40 @@
   font-size: 24px;
   color: #ffffff;
   opacity: 1;
+}
+
+@media (min-width: 500px) and (max-width: 1366px) {
+  .card {
+    width: 190px;
+    height: 170px;
+    padding: 18px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top {
+    display: flex;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .bottomText {
+    font-size: 13px;
+    width: 159px;
+  }
+  .heading {
+    width: 94px;
+    height: 35px;
+    text-align: left;
+    font-size: 16px;
+    color: #3cc3f2;
+
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
 }
