@@ -1,11 +1,11 @@
 .home {
-  width: 1920px;
+  width: max-content;
   display: flex;
   gap: 67px;
   margin-top: 40px;
   border-radius: 18px;
   padding: 40px;
-  border: 2px solid yellow;
+  border: 2px solid #a3a3a3;
 }
 .formSection {
   width: 760px;
@@ -196,7 +196,7 @@
     margin-top: 40px;
     border-radius: 18px;
     padding: 30px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
   .formSection {
     width: max-content;
