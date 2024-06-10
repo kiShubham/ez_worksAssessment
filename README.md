@@ -6,7 +6,7 @@ the API provided to us `(http://34.225.132.160:8002/api)` .
 
 ---
 
-### This app is using a proxy and have a proxy key which is on trial for 3 days , we need to upadate the proxy key after 3 day for free use case .
+### This app is using a proxy and have a proxy key which is on trial for 3 days , we need to update the proxy key after 3 day for free use case .
 
 - visit [cors.sh]() to have free key
 
