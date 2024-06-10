@@ -17,10 +17,10 @@ export const postEmailreq = async (data) => {
       data,
       headerObj
     );
-    console.log(res);
+    // console.log(res);
     return res;
   } catch (error) {
-    console.log(error.response);
+    // console.log(error.response);
     return error.response;
   }
 };
