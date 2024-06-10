@@ -4,11 +4,15 @@ we have created a single-page web application using ReactJs. The
 application should be responsive and will consist of a simple form that will be integrated with
 the API provided to us `(http://34.225.132.160:8002/api)` .
 
-### Please visit to https://cors-anywhere.herokuapp.com/corsdemo
+---
 
-- Request temporary access by clicking the button on the page before running the App.
+### This app is using a proxy and have a proxy key which is on trial for 3 days , we need to upadate the proxy key after 3 day for free use case .
 
-- This step is necessary because the API provided `(http://34.225.132.160:8002/api)` uses HTTP, while our application is hosted with HTTPS at `(https://ez-works-assessment.vercel.app/)`.
+- visit [cors.sh]() to have free key
+
+---
+
+- Proxy is necessary because the API provided `(http://34.225.132.160:8002/api)` uses HTTP, while our application is hosted with HTTPS at `(https://ez-works-assessment.vercel.app/)`.
 
 - Hence browser will give error , when you try to submit the email in the form , so we used proxy to run the http based api given to us;
 
