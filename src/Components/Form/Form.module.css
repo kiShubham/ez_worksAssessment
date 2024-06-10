@@ -279,7 +279,7 @@
   }
 
   .serviceGrid {
-    width: 680px;
+    /* width: 680px; */
     width: 612px;
     height: 372px;
     display: flex;
@@ -289,7 +289,7 @@
   }
 
   .errorMsg {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     font-style: italic;
     color: #dc2626;
