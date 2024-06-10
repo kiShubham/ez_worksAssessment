@@ -116,7 +116,8 @@
   }
   .formSection {
     width: 350px;
-    height: 352px;
+    /* height: 352px; */
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
